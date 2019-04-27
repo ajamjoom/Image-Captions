@@ -13,7 +13,7 @@ The main additions of this implementaion are:
 
 # Instructions to run the code
 
-1. Create three folders: (1) data, (2), data>annotations, and (3) glove.6B
+1. Create three folders: (1) data, (2), data>annotations, (3), checkpoints, and (4) glove.6B
 1. Download the train2014 and val2014 COCO dataset and place it in the data folder
 2. Download the COCO train/val 2014 captions and place them in data>annotations
 3. Run the processData.py file (uncomment the last time of that file first) - this will generate train2014_resized, val2014_resized, vocab.pkl
@@ -34,3 +34,5 @@ The main additions of this implementaion are:
 # Pre-Trained Models
 
 If you only want to validate Pre-Trained Models, then it's much simpler to use the Jupyter Notebook in this repository and just load the model you wish to validate. Open the notebook and find the Load model section and pick the model you want. If you would like to compare all the models against each other, open the jupeter notebook and run it without changing any of the code.
+
+Due github memory issues, I wasn't able to upload my trained models. If you want access to them, email me at abduljamjoom@gmail.comgit
