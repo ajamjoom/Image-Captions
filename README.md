@@ -1,5 +1,5 @@
 # Image Captioning Systsme
-This repository presents a pyTorch implementation of the Attend, Show, and Tell paper (https://arxiv.org/pdf/1502.03044.pdf) and applies two extentions: (1) method to utalize the GloVe embeddings and (2) a method that integrates BERT into training. These extensions have proved to greatly inhance the models performance.
+This repository presents a pyTorch implementation of the Show, Attend, and Tell paper (https://arxiv.org/pdf/1502.03044.pdf) and applies two extentions to it: (1) utalize the GloVe embeddings and (2) integrate BERT context vectors into training. These extensions have proved to greatly inhance the model's performance.
 
 Parts of this pyTorch implementaion are taken from the following github repositories:
 1. https://github.com/parksunwoo/show_attend_and_tell_pytorch/blob/master/prepro.py
