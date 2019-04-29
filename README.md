@@ -1,4 +1,4 @@
-# Image Captioning Systsme
+# Image Captioning System
 This repository presents a pyTorch implementation of the Show, Attend, and Tell paper (https://arxiv.org/pdf/1502.03044.pdf) and applies two extentions to it: (1) utalize the GloVe embeddings and (2) integrate BERT context vectors into training. These extensions have proved to greatly inhance the model's performance.
 
 Parts of this pyTorch implementaion are taken from the following github repositories:
@@ -37,3 +37,6 @@ The main additions of this implementaion are:
 If you only want to validate Pre-Trained Models, then it's much simpler to use the Jupyter Notebook in this repository and just load the model you wish to validate. Open the notebook and find the Load model section and pick the model you want. If you would like to compare all the models against each other, open the jupyter notebook and run the compare_all function.
 
 Due github memory limitations, I wasn't able to upload my trained models. If you want access to them, email me at abduljamjoom@gmail.com
+
+for more details: https://www.overleaf.com/read/jsghphtqpcgc
+
