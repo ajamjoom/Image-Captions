@@ -313,7 +313,7 @@ if from_checkpoint:
     decoder_optimizer.load_state_dict(decoder_checkpoint['optimizer_state_dict'])
 else:
     encoder = Encoder().to(device)
-    decoder = Decoder(vocab_size=len(vocab),use_glove=use_glove, use_bert=use_bert).to(device)
+    decoder = Decoder(vocab_size=len(vocab),use_glove=glove_model, use_bert=bert_model).to(device)
     decoder_optimizer = torch.optim.Adam(params=decoder.parameters(),lr=decoder_lr)
 
 ###############
